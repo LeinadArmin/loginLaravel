@@ -9,20 +9,20 @@
                     <form class="form" method="POST" action="{{ route('login') }}">
                         @csrf
                         <div class="header header-primary text-center">
-                            <h4>Sign Up</h4>
+                            <h4>Iniciar sesión</h4>
                             <div class="social-line">
-                                <a href="#pablo" class="btn btn-simple btn-just-icon">
+                                <!-- <a href="#" class="btn btn-simple btn-just-icon">
                                     <i class="fa fa-facebook-square"></i>
                                 </a>
-                                <a href="#pablo" class="btn btn-simple btn-just-icon">
+                                <a href="#" class="btn btn-simple btn-just-icon">
                                     <i class="fa fa-twitter"></i>
                                 </a>
-                                <a href="#pablo" class="btn btn-simple btn-just-icon">
+                                <a href="#" class="btn btn-simple btn-just-icon">
                                     <i class="fa fa-google-plus"></i>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
-                        <p class="text-divider">Or Be Classical</p>
+                        <p class="text-divider">Completa tus datos</p>
                         <div class="content">
 
                             <div class="input-group">
@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div class="footer text-center">
-                            <button type="submir" class="btn btn-simple btn-primary btn-lg">Get Started</a>
+                            <button type="submit" class="btn btn-simple btn-primary btn-lg">Iniciar sesión</a>
                         </div>
                     </form>
                 </div>
